@@ -116,7 +116,7 @@ var app = http.createServer(function (request, response) {
             <textarea name="description" placeholder="description">${description}</textarea>
             <input type="submit">
           </form>
-        `, ` <a href="/create">Create</a>`);
+        `, ``);
         response.writeHead(200);
         response.end(templete);
       });

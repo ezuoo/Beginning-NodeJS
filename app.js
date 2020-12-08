@@ -37,6 +37,7 @@ app.get('/users/:id', (req, res) => {
       return res.json(user);
 });
 
+// delete user
 app.delete('/users/:id', (req, res) => {
 
     const id = parseInt(req.params.id,10);
@@ -52,8 +53,12 @@ app.delete('/users/:id', (req, res) => {
     users.splice(userIdx, 1);
 
     res.status(204).send();
-
 });
+
+// add user
+app.post('/users/:id', (req, res) => {
+    
+})
 
 
 

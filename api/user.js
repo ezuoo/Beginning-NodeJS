@@ -1,3 +1,5 @@
+// User API에 대한 라우팅 설정
+
 const express = require('express');
 const router = express.Router();
 const controller = require('./user.controller');

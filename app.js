@@ -1,3 +1,5 @@
+// 익스프레스로 서버 설정 및 구동
+
 const bodyParser = require('body-parser');
 const express = require('express');
 const app = express();

@@ -1,3 +1,5 @@
+// User API에 대한 실제 로직
+
 let users = [
     {   id: 1, name: 'bae' },
     {   id: 2, name: 'alice' },

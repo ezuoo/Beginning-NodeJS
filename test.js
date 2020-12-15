@@ -1,3 +1,4 @@
+/*
 var args = process.argv;
 var arr = [1,2,3];
 console.log(args[2]);
@@ -19,8 +20,6 @@ console.log(list);
 console.log(list);
 console.log(list);
 
-
-
-
+*/
 
 

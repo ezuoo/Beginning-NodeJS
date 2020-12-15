@@ -1,13 +1,17 @@
 var net = require('net');
 
 var server = net.createServer((socket) => {
-    socket.end('hello world');
+    var add = socket.localAddress;
+    socket.write(`add : ${add}\n`);
+    socket.write('hello write\n');
+    socket.end('hello world!\n ');
+   
 });
 
 server.on('error', (error) => {
-    console.log(error);
+    console.log('error : ', error);
 });
 
-server.listen(9000, () => {
+server.listen(3000, () => {
     console.log('listen', server.address());
 });

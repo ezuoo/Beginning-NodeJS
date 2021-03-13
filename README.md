@@ -4,27 +4,7 @@
 
 처음 NodeJs를 공부한 코드입니다. :fire:
 
-## Getting Started
-```
-git clone https://github.com/ezuoo/NextJs-boilerplate.git
-```
-
-## Installation
-```
-npm install
-```
-
-## Running locally in development mode
-```
-npm run dev
-```
-
-## Building and deploying in production
-```
-npm build 
-npm start
-```
 ## Docs
-[**NextJs Docs**](https://nextjs.org/docs/getting-started)
+[**NodeJs Docs**](https://nodejs.org/en/docs/)
 
 

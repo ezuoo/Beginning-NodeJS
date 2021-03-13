@@ -4,6 +4,8 @@
 
 처음 NodeJs를 공부한 코드입니다. :fire:
 
+공식문서를 참고하여 공부하였습니다
+
 ## Docs
 [**NodeJs Docs**](https://nodejs.org/en/docs/)
 
